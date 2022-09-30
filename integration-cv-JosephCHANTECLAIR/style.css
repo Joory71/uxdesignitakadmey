@@ -1,0 +1,181 @@
+* {
+    font-family: Roboto;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.container {
+    margin: 0;
+    max-width: 100%;
+    background: linear-gradient(180deg, #27222F 0%, #2C8598 100%);
+}
+
+#blocGauche {
+    background: linear-gradient(180deg, #27222F 0%, #2C8598 100%);
+    color: #fff;
+}
+
+#blocDroite {
+    background: #fff;
+    border-top: #27222f 10px solid;
+    border-right: linear-gradient(180deg, #27222F 0%, #2C8598 100%) 10px solid;
+    border-bottom: #2C8598 10px solid;
+    color: #847D7D;
+}
+
+#blocDroite p {
+    font-size: 14px;
+}
+
+#blocDroite h4 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+#wrapperImg {
+    background-image: url('../medias/idimg.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    position: relative;
+    top: -65px;
+    left: 40%;
+}
+
+#rectId {
+    border: solid #fff 2px;
+    border-radius: 25px;
+    padding: 3%;
+    margin: 15% 0 5% 0;
+    background: #E5E5E545;
+}
+
+#rectId p:first-child {
+    margin-top: -60px;
+}
+
+#rectId p:last-child {
+    font-size: 13px;
+}
+
+.info-bloc {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3%;
+    border-radius: 50px;
+    margin-bottom: 2%;
+}
+
+.info-bloc p {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.info-bloc i {
+    margin-right: 20px;
+}
+
+.fa-circle {
+    margin-right: 10px;
+}
+
+.languages {
+    font-size: 14px;
+}
+
+.languages h3 {
+    font-size: 16px;
+    text-align: inherit;
+}
+
+.rectTitle {
+    background: #2C8598;
+    padding: 3%;
+    border-radius: 50px;
+    margin-bottom: 2%;
+    color: #fff;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.rectTitle h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+    position: absolute;
+    width: 40%;
+    height: 0px;
+    left: 60%;
+    background: #2C8598;
+    border: 2px solid #2C8598;
+}
+
+.bleu {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2C8598;
+    ;
+}
+
+.round-gris {
+    background: #F0ECEC;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.round-blue {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background: #2C8598;
+    position: absolute;
+}
+
+#logiciels .col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logiciels .col-6:nth-of-type(1),
+#logiciels .col-6:nth-of-type(2) {
+    margin-bottom: 2%;
+}
+
+#hobbies div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hobbies p,
+#logiciels p {
+    font-size: 10px;
+}
+
+#hobbies div i {
+    font-size: 30px;
+}
+
+.ellipses {
+    position: relative;
+}
